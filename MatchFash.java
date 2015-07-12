@@ -52,7 +52,7 @@ System.setProperty("com.sun.media.jai.disableMediaLib", "true");
      public MatchFash(File reference) throws IOException
        {
        // Create the GUI
-       super("Naive Similarity Finder");
+      
        Container cp = getContentPane();
        cp.setLayout(new BorderLayout());
        // Put the reference, scaled, in the left part of the UI.
