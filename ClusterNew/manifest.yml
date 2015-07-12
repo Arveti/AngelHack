@@ -1,0 +1,6 @@
+---
+applications:
+- name: ClusterNew
+  memory: 512M
+  host: ClusterNew
+  domain: mybluemix.net

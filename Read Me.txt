@@ -1,0 +1,13 @@
+Genfash is an intelligent platform which enhances and changes the online shopping experience by providing a solution to the users where they can upload any kind of shirts or T-shirts or any garments and basing on that Genfash provides a list of catalog of similar clothes may with same color or model,etc using machine learning and predictive analytics.
+
+Development Cycle Done In Hackathon :
+
+File at  Genfash/src/java/MatchFash.java  is a prototyped real time application where a user picks a shirt pic from a folder among others where at the same instance the application compares that particular images with all other pics in the folder and provides a catalog in a scroll view in ascending order of their co-relation difference where more the co-relation difference more the dissimilarity.
+
+The algorithm is a custom built algorithm coded using signature of image(concept illustrated in attached html page) and vectorial difference features.
+
+File ImageFeatureExtraction.html gives detailed demonstration of extracting 3d data i.e. rgb data from images and also finding out the required part of image for the application and also converting 3d data to separate RGB data individually so that it can be applied to a specific machine learning algorithm model as illustrated in MachineLearningModel.r file where a template for 'parallel random forest algorithm ' is coded so that the model is available for any input data in prescribed format.
+
+Here genfash application is deployed for testing in bluemix at http://genfash.eu-gb.mybluemix.net/ where around 100 images collected for this demo project are at consecutive numbers of x in http://genfash.eu-gb.mybluemix.net/Images//x.jpeg.
+
+ImageFeatureExtraction.R includes sample code for basic image data extraction and as application is intended to collect lots of meta data about images, a record for each image url specified above is created in clusterpoint database for scaling of application with lots of data about each image in Nosql and eventually putting the things in machine learning algorithms for best predictions.

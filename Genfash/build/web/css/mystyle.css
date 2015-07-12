@@ -1,0 +1,18 @@
+.primary-color{
+  color:#e51c23;
+}
+header{
+	background-color: #00BCD4;
+	font-family: 'Bree Serif', serif;
+	font-size:larger;
+}
+
+
+.box{
+  margin:45px;
+  min-height: 500px;
+}
+
+.footbox{
+	min-height:50px;
+}
